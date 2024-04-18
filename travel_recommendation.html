@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TravelBloom</title>
+       
+    <link rel="stylesheet" href="./travel_recommendation.css">
+        
+</head>
+
+<body>
+
+
+    <nav>
+        <h1>TravelBloom</h1>
+
+
+        <ul>
+            <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+            <li><a href="./about_us.html" id="contact">About us </a></li>
+            <li><a href="./contact_us.html" id="contact">Contact us </a></li>
+            <li><input type="text" id="travelInput" placeholder="Enter your travel destination">  </li>
+            <li><button id='btnSearch'>Search</button></li>
+            <li><button id='btnReset' type="reset" onclick="reset()">Clear</button></li>
+        </ul>
+
+    </nav>
+
+<div>
+    <br><br><br><br><br>
+
+    <h1>EXPLORE THE WORLD'S <br />BEST DESTINATIONS</h1>
+</div>
+
+<script>
+    function reset(){
+        document.getElementById("travelInput").value = "";
+    }
+  </script>
+
+    <script src="./travel_recommendation.js"></script>
+
+
+
+</body>
+
+
+</html>
